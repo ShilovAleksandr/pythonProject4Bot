@@ -1,18 +1,15 @@
-# This is a sample Python script.
+#put your code here
+def f(a, b):
+    if a < 0 and b < 0:
+        return 'Оба числа отрицательны'
+    elif a < 0 or b < 0:
+        return 'Есть отрицательное число'
+    elif a == 0 or b == 0:
+        return 'Есть 0'
+    elif a > 0 and b > 0:
+        return 'Оба числа положительны'
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+print(f(int(input()), int(input())))
 
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
-def new_func():
-    return 'new function'
+for c in 'bot':
+    print(c, end='')
